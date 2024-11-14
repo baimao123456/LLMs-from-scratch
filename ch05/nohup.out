@@ -1,0 +1,34 @@
+Matplotlib is building the font cache; this may take a moment.
+Ep 1 (Step 000000): Train loss 9.802, Val loss 9.932
+Ep 1 (Step 000005): Train loss 7.684, Val loss 7.992
+Every effort moves you,,,,,,,,,,,,,,,,,,,,,,,,,,,,, I,,,,,,,,,,,,,,,,,,,,
+Ep 2 (Step 000010): Train loss 6.387, Val loss 6.750
+Ep 2 (Step 000015): Train loss 6.258, Val loss 6.435
+Every effort moves you, and, and the the of the of the the of the of the of the, and I had the of the                          
+Ep 3 (Step 000020): Train loss 4.793, Val loss 6.422
+Ep 3 (Step 000025): Train loss 2.630, Val loss 6.326
+Every effort moves you know                               He placed them at my elbow and in my the picture and down the picture, with a
+Ep 4 (Step 000030): Train loss 4.361, Val loss 6.265
+Ep 4 (Step 000035): Train loss 2.317, Val loss 6.141
+Every effort moves you know it was not to the picture. The--I had a little of the. Gisburn's an!  "Oh, and the moment--as Jack himself, and he was not to the donkey. "There were, and in
+Ep 5 (Step 000040): Train loss 2.131, Val loss 6.298
+Every effort moves you know," was one of the picture for a smile that he was his last word.               He placed them at my elbow and I was _mine_--his, and I was
+Ep 6 (Step 000045): Train loss 1.952, Val loss 6.158
+Ep 6 (Step 000050): Train loss 1.085, Val loss 6.250
+Every effort moves you?"  "Yes--quite insensible to the fact with a laugh: "Yes--and by me to me to the her poverty. I remember getting off a prodigious phrase about the honour being _mine_--because he had always his
+Ep 7 (Step 000055): Train loss 0.976, Val loss 6.327
+Ep 7 (Step 000060): Train loss 1.132, Val loss 6.385
+Every effort moves you?"  "Yes--quite insensible to the fact with a laugh: "Yes--she's an awful simpleton, and Mrs. "I must have to look up at the honour being _mine_--oh, and in his
+Ep 8 (Step 000065): Train loss 0.487, Val loss 6.485
+Ep 8 (Step 000070): Train loss 0.357, Val loss 6.513
+Every effort moves you?"  "Yes--quite insensible to the irony. "--so it was no great surprise to me to hear that, in the moment--as Jack himself, one might put it, and Jack's "There were days when I
+Ep 9 (Step 000075): Train loss 0.271, Val loss 6.624
+Ep 9 (Step 000080): Train loss 0.169, Val loss 6.685
+Every effort moves you?"  "Yes--quite insensible to the fact with equanimity. Victor Grindle was, in fact, becoming the man of the height of his head to look up at the sketch of the donkey. "There were days when I
+Ep 10 (Step 000085): Train loss 0.202, Val loss 6.767
+Every effort moves you?"  "Yes--quite insensible to the irony. She wanted him vindicated--and by me!"  He laughed again, and threw back his glory, he had dropped his painting, married a rich widow, and established himself in
+Traceback (most recent call last):
+  File "/Users/baimao/Documents/offline_code/LLM/LLMs-from-scratch_xiefei/ch05/gpt_train.py", line 193, in <module>
+    plot_losses(epochs_tensor, tokens_seen, train_losses, val_losses)
+    ^^^^^^^^^^^
+NameError: name 'plot_losses' is not defined. Did you mean: 'val_losses'?

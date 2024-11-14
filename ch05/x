@@ -1,0 +1,26 @@
+        , if(picvr_model/plat_conv>=lower and picvr_model/plat_conv<=upper, charge, 0) as ori_plat_perf_price
+        , if(picvr_model/plat_conv<=upper, charge, 0) as ori_plat_less12_price
+        , if(picvr_calib/plat_conv>=lower and picvr_calib/plat_conv<=upper, charge, 0) as plat_perf_price
+        , if(picvr_calib/plat_conv<=upper, charge, 0) as plat_less12_price
+        , if(picvr_model/today_conv>=lower and picvr_model/today_conv<=upper, charge, 0) as ori_today_perf_price
+        , if(picvr_model/today_conv<=upper, charge, 0) as ori_today_less12_price
+        , if(picvr_calib/today_conv>=lower and picvr_calib/today_conv<=upper, charge, 0) as today_perf_price
+        , if(picvr_calib/today_conv<=upper, charge, 0) as today_less12_price
+        -- 延迟放置：平台维度/展现维度
+        , if(picvr_model_exp/plat_conv>=lower and picvr_model_exp/plat_conv<=upper, charge, 0) as ori_plat_perf_price_exp
+        , if(picvr_model_exp/plat_conv<=upper, charge, 0) as ori_plat_less12_price_exp
+        , if(picvr_calib_exp/plat_conv>=lower and picvr_calib_exp/plat_conv<=upper, charge, 0) as plat_perf_price_exp
+        , if(picvr_calib_exp/plat_conv<=upper, charge, 0) as plat_less12_price_exp
+        , if(picvr_model_exp/today_conv>=lower and picvr_model_exp/today_conv<=upper, charge, 0) as ori_today_perf_price_exp
+        , if(picvr_model_exp/today_conv<=upper, charge, 0) as ori_today_less12_price_exp
+        , if(picvr_calib_exp/today_conv>=lower and picvr_calib_exp/today_conv<=upper, charge, 0) as today_perf_price_exp
+        , if(picvr_calib_exp/today_conv<=upper, charge, 0) as today_less12_price_exp
+        -- 延迟放置：
+        , if(picvr_accurate_model_exp/plat_conv>=lower and picvr_accurate_model_exp/plat_conv<=upper, charge, 0) as ori_plat_accurate_perf_price_exp
+        , if(picvr_accurate_model_exp/plat_conv<=upper, charge, 0) as ori_plat_less12_price_exp
+        , if(picvr_accurate_calib_exp/plat_conv>=lower and picvr_accurate_calib_exp/plat_conv<=upper, charge, 0) as plat_accurate_perf_price_exp
+        , if(picvr_accurate_calib_exp/plat_conv<=upper, charge, 0) as plat_accurate_less12_price_exp
+        , if(picvr_accurate_model_exp/today_conv>=lower and picvr_accurate_model_exp/today_conv<=upper, charge, 0) as ori_today_accurate_perf_price_exp
+        , if(picvr_accurate_model_exp/today_conv<=upper, charge, 0) as ori_today_accurate_less12_price_exp
+        , if(picvr_accurate_calib_exp/today_conv>=lower and picvr_accurate_calib_exp/today_conv<=upper, charge, 0) as today_accurate_perf_price_exp
+        , if(picvr_accurate_calib_exp/today_conv<=upper, charge, 0) as today_accurate_less12_price_exp
